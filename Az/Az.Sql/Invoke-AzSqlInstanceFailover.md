@@ -87,7 +87,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-The name of the Azure SQL instance to remove.
+The name of the Azure SQL instance to fail over.
 
 ```yaml
 Type: System.String
