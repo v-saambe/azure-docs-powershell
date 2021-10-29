@@ -140,7 +140,6 @@ PS C:\> New-AzRedisCache -ResourceGroupName "MyGroup" -Name "MyCache" -Location 
           Tag                : {}
           Zone               : []
 ```
-
 ### Example 5: Configure data persistence for a Premium Azure Cache for Redis
 
 Persistence writes Redis data into an Azure Storage account that you own and manage. So before configuring data persistence you need to have [storage account](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-create?tabs=azure-powershell) in same resource group. Choose a storage account in the same region and subscription as the cache, and a Premium Storage account is recommended because premium storage has higher throughput.
